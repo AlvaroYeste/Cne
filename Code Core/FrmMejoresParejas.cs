@@ -39,7 +39,7 @@ namespace Conozca_a_su_nuevo_empleado
             //Especificamos una sentencia SELECT en nuestro DataAdapter que recoja los datos que vamos a utilizar.
             daJuegos = new SqlDataAdapter("SELECT * FROM Parejas ORDER BY Puntuacion DESC", cnConexionBD);
             //Mediante un SQLCommandBuilder ejecutamos la sentencia SELECT.
-            SqlCommandBuilder constructorSQL = new SqlCommandBuilder(daJuegos)
+            SqlCommandBuilder constructorSQL = new SqlCommandBuilder(daJuegos);
             //Abrimos la conexion.
             cnConexionBD.Open();
             //Introducimos los datos obtenidos por la sentencia SELECT y los introducimos en el DataSet.

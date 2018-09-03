@@ -21,5 +21,18 @@ namespace Conozca_a_su_nuevo_empleado
         {
             this.Dispose();
         }
+
+        private void lblLinkedIn_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start("https://github.com/AlvaroYeste/Cne");
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show("¿Tienes un explorador de internet? ¿Esto te dice algo? " + error);
+            }
+
+        }
     }
 }

@@ -100,6 +100,7 @@
             this.lblLinkedIn.TabIndex = 16;
             this.lblLinkedIn.TabStop = true;
             this.lblLinkedIn.Text = "https://github.com/AlvaroYeste/Cne";
+            this.lblLinkedIn.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblLinkedIn_LinkClicked);
             // 
             // FrmFAQ
             // 

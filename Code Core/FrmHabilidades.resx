@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtDesarrollo.Text" xml:space="preserve">
+    <value>Javascript: Lo tengo pendiente, tengo las bases pero todavia no lo domino del todo.
+
+AJAX: Quiero aprender a usar Ajax para que mis paginas alcancen la calidad de las profesionales.
+
+C++: Aunque lo cataloguen de inestable, sigue siendo un lenguaje fuerte y muy utilizado, otro que quiero aprender, un dia de estos...
+
+Python: Como Javascript, tengo las bases pero no lo domino, lo poco que he aprendido ha sido utilizando el Framework Django. (La D es muda)</value>
+  </data>
+  <data name="txtSQL.Text" xml:space="preserve">
+    <value>Pregunta seria. ¿Existe otro lenguaje de manejo de base de datos? He llegado a crear querys de mas de 200 caracteres y anidar hasta 4 querys una dentro de otra, Me fastidia fuertemente utilizar UNION, soy firme defensor de JOIN, y OUTER JOIN y estoy dispuesto a discutir sobre ello.
+
+Habilidad con SQL: 8/10</value>
+  </data>
+  <data name="txtPHP.Text" xml:space="preserve">
+    <value>La herramienta ideal, a mi juicio, para programacion estructurada integrada en webs, amen de Javascript y Ajax. Este fue el lenguaje utilizado en mi proyecto final, por lo que puedo decir que estoy muy familiarizado con el.
+
+---Versiones utilizadas---
+
+4.01 - 5
+
+---Editores utilizados ---
+
+El bloc de notas de windows - Net Beans (Version 7.0) - Sublime Text 2 y 3
+
+Habilidad con PHP 8/10</value>
+  </data>
+  <data name="txtweb.Text" xml:space="preserve">
+    <value>Desarrollo web simple junto con hojas de estilo son los primeros pasos de casi cualquiera en el mundo del desarrollo, no hay mucho mas que decir.
+
+---Versiones utilizadas---
+
+4.01 - 5
+
+---Editores utilizados ---
+
+El bloc de notas de windows - Net Beans (Version 7.0) - Sublime Text 2 y 3
+
+Habilidad como desarrollador web 7/10</value>
+  </data>
+  <data name="txtJAVA.Text" xml:space="preserve">
+    <value>El lenguaje que considero el mas útil para casi cualquier cosa relacionada con programacion orientada a objetos dada su capacidad multiplataforma. Mi delito es que dicho eso, no estoy tan familiarizado con él.
+
+---Frameworks utilizados---
+
+No sabe no contesta
+
+---IDE's utilizados ---
+
+Eclipse (Version Indigo) - Net Beans (Versiones 6.9 a 7.3)
+
+Habilidad con Java 5/10</value>
+  </data>
+  <data name="txtVisualBasic.Text" xml:space="preserve">
+    <value>Mi primer lenguaje de programacion a objetos, con el que más familiarizado estoy y en el que más horas he programado.
+
+---Frameworks utilizados---
+
+.NET 3.5 - 4.0 - 4.5
+
+---IDE's utilizados ---
+
+Visual Studio 2008 - 2012 - 2017
+
+Habilidad con Visual Basic 7/10</value>
+  </data>
+  <data name="txtAnalisis.Text" xml:space="preserve">
+    <value>Como técnico superior en Desarrollo de Aplicaciones Informaticas, estoy formado y cualificado para el planteamiento y diseño conceptual de todo tipo de aplicaciones informaticas.
+
+Utilizando herramientas como Easy Case y Visio se componer todo tipo de diagramas con los que ahorrar tiempo y esfuerzo al desarrollador.
+
+Habilidad como Analista: 7/10</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Antes de empezar este programa no tenia ni remota idea de C# mas allá de saber que era el primo de Java en Microsoft, decidi crear este programa como la excusa perfecta para aprenderlo. Quiero creer que lo he conseguido.
+
+---Frameworks utilizados---
+
+.NET 4.6.1
+
+---IDE's utilizados ---
+
+Visual Studio 2017
+
+Habilidad con C# 7/10</value>
+  </data>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>Con el Kit de herramientas WiX puedo crear instaladores sencillos para aplicaciones .NET, es solo para windows, razon por la que tiene extensiones para los IDE de Visual Studio.
+
+---Kit utilizado---
+
+Kit Toolset 3.11
+
+Habilidad con WiX 6.5/10</value>
+  </data>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
